@@ -1,0 +1,67 @@
+/*----Google Fonts-----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=Nunito+Sans&family=Poppins:wght@500;600;700&display=swap');
+
+body{font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+    /*----Google Fonts end-----*/
+
+    
+    header{margin: 120px;
+        margin-top: 80px;}
+    
+    /*----Menu bar-----*/
+header{display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40%;
+}
+nav ul{display: flex;}
+
+nav li{list-style: none;
+    
+}
+
+nav a{text-decoration: none;}
+/*----Menu bar end-----*/
+
+.section-1, .company-icon{margin-left: 120px;
+    margin-right: 80px;
+    
+}
+
+
+.products{display: flex;}
+.products-title{font-size: 52px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.products-info{border: 1px solid red;
+    width: 582px;
+    height: 270px;
+}
+button{background-color: slateblue;
+    color: white;
+    padding: 8px 15px;
+    border: 0px solid white;
+    border-radius: 20px;
+    font-weight: 700;
+    
+}
+
+.products-img{width: 440px;
+    height: 414px;
+}
+
+.products-img img{width: 70%;
+    margin-left: 150px;
+}
+
+
+.company-icon{
+}
+.icon{display: flex;
+    justify-content: space-evenly;
+    
+}
