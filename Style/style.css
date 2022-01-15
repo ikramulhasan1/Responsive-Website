@@ -5,9 +5,34 @@
 body{font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;}
-    /*----Google Fonts end-----*/
 
+/*------------------------------------------
+Google Fonts end----------------*/
+
+/*----Mobile Device-------*/
+@media only screen and (max-width: 688px){
+
+    .products, company-icon{display: flex;
+        flex-direction: column;}
+    .Popular-Collection, .Sign-up-form, .section-1, .company-icon{width: 100%;}
+    .Collection-info, .form, .products, .icon{
+        justify-content: end;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        
+    }
+
+    header{display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: space-evenly;
+        
+    }
     
+}
+
+
+
+
     header{margin: 120px;
         margin-top: 80px;}
     
@@ -21,8 +46,9 @@ nav ul{display: flex;
 }
 #Sign-up{display: flex;}
 nav li{list-style: none;
-    margin-left: 10px;
-    padding-left: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 0%;
     
     
 }
@@ -115,7 +141,7 @@ button, .submit{background-color: slateblue;
     height: 190px;
 }
 
-.form{width: 400px;
+.form{width: 350px;
     margin-bottom: 50px;
     margin-top: 10px;
     justify-content: center;
